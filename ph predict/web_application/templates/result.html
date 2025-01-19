@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Water Prediction Result</title>
+</head>
+<body>
+    <h2>Water Prediction Result</h2>
+    <p>pH Value: {{ ph }}</p>
+    <p>Water Potability: {% if 6.5 <= ph <= 8.5 %} Potable {% else %} Non-Potable {% endif %}</p>
+</body>
+</html>
